@@ -1,0 +1,79 @@
+@charset "UTF-8";
+body{
+    /* background-color: #fffeee; */
+    /* background-image: url(Cat2.jpg); */
+    /* background-size: contain; */
+    /* background-repeat: repeat-x; */
+    /* background-position: 20px 400px; */
+    }
+.space{
+    background: #fffeee url(Cat2.jpg) repeat-x left top/contain ;
+    width: 900px;
+    height: 300px;
+    margin: 10px 0 0 10px;
+    padding-top: 20px 0 0 0;
+}
+
+html{
+    font-size: 100%;
+}
+h1{
+    color: black;
+    font-size: 2rem;
+    /* Google Fonts の　M PLUS Rounded 1c を使用する場合 */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: greenyellow;
+    padding-left: 20px;
+    border-style: solid;
+    border-width: 3px 0 3px 0;
+    border-bottom: 5px dotted red;
+}
+h2{
+    font-size: 20px;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+}
+
+ul{
+    list-style: square;
+    padding-left: 50px;
+    list-style-position: outside;
+    margin: left 50px;;
+}
+li{
+    background-color: aquamarine;
+}
+
+p{
+    font-size: 20px;
+    font-family: "ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro", sans-serif;
+    font-weight: bold;
+    line-height: 1.7;
+    text-align: justify;
+    width: 50%;
+    border-width: 2px;
+    border-style: double;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-color: aqua aquamarine blueviolet gold;
+}
+.sentence{
+    background-color:lightgreen;
+    padding: 20px;
+}
+.item{
+    background-color: aqua;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+}
+/* flex box で横並び */
+.containar{
+    display: flex;
+}
+
+a{
+    margin: 50px;
+    padding: 5px;
+    border: 1px solid black;
+}
