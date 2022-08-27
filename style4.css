@@ -1,0 +1,65 @@
+@charset "UTF-8";
+body{
+    /* background-color: #fffeee; */
+    /* background-image: url(Cat2.jpg); */
+    /* background-size: contain; */
+    /* background-repeat: repeat-x; */
+    /* background-position: 20px 400px; */
+    }
+
+html{
+    font-size: 100%;
+}
+.item{
+    background-color: aqua;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+}
+/* flex box で横並び */
+.containar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightcyan;
+    border: 3px black solid;
+    align-items: center;
+    height: 300px;
+    align-content: center;
+}
+
+.item1{
+    background-color: aqua;
+    color: black;
+    padding: 5px;
+}
+
+.containar1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    border: 2px solid black;
+    width: auto;
+    gap: 10px;
+    margin: 30px 0;
+    padding: 10px;
+}
+
+.item2{
+    background-color: aqua;
+    color: black;
+    padding: 5px;
+    float: left;
+    width: 200px;
+    margin: 10px;
+}
+
+.containar2{
+    border: 2px solid black;
+    width: auto;
+    gap: 10px;
+    margin: 30px 0;
+    padding: 10px;
+    height: 100px;
+}
